@@ -1,0 +1,10 @@
+app-envelop {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--envelope-width, 420px);
+  height: var(--envelope-height, 300px);
+  max-width: 100vw;
+  max-height: 100vh;
+}

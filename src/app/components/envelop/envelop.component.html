@@ -1,0 +1,23 @@
+<div
+  class="envelope-container"
+  role="button"
+  tabindex="0"
+  (click)="toggle()"
+  (keydown.enter)="toggle()"
+>
+  <div class="envelope" [class.open]="isOpen">
+    <div class="flap" aria-hidden="true"></div>
+    <div class="body">
+      <div class="letter" [class.visible]="isOpen">
+        <div class="letter-content">
+          <h2>Para Jose</h2>
+          <p>Amor es una palabra, pero tu eres el sentimiento de amar.</p>
+          <p>
+            Permíteme ser parte de tu mundo, porque tu ya eres parte del mío.
+          </p>
+          <span>Con amor, JP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
